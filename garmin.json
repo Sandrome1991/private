@@ -1,0 +1,26 @@
+{
+    "$schema": "https://raw.githubusercontent.com/house-of-abbey/GarminHomeAssistant/main/config.schema.json",
+    "title": "Home",
+    "items": [
+      {
+        "entity": "switch.computer_smart_plug",
+        "name": "Computer Smart Plug",
+        "type": "toggle"
+      },
+      {
+        "entity": "switch.coffee_machine_smart_plug",
+        "name": "Coffee Machine Smart Plug",
+        "type": "toggle"
+      },
+      {
+        "content": "sensor.sonoff_sensor_temperature",
+        "name": "Inside Temperature",
+        "type": "info"
+      },
+      {
+        "content": "sensor.airgradient_carbon_dioxide",
+        "name": "CO2",
+        "type": "info"
+      }
+    ]
+  }
